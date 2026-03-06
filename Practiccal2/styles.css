@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: rgb(211, 162, 162);
+  color: var(--color-text);
+  margin: 0 20px 20px 45px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    background: var(--color-primary-gradient);
+    box-shadow: 0 2px 12px var(--color-card-shadow);
+    position: static;
+    padding: 0;
+  }
+  .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px 0 8px;
+  height: 70px;
+  background-color: brown;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0;
+}
+.navbar-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.navbar-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(203, 193, 212);
+  letter-spacing: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 0;
+  animation: alternate-reverse;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-right li {
+  display: flex;
+}
+.navbar-right a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 1.08rem;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: background 0.18s, color 0.18s;
+}
+.navbar-right a:hover, .navbar-right a.active, .navbar-right a[aria-current="page"] {
+  background: black;
+  color: yellow;
+}
+
+.hero-section {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding:;
+  background: linear-gradient(120deg, var(--color-secondary) 0%, var(--color-bg) 100%);
+  min-height: 60vh;
+  position: relative;
+  overflow: hidden;
+}
+.hero-content {
+  max-width: 600px;
+  z-index: 2;
+}
+.welcome-text {
+  font-size: 1.1rem;
+  color:lightblue;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 0 0 0px 0;
+  color: green;
+}
+.hero-content h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color:red ;
+  margin-bottom: 8px;
+}
+
+.badges{
+    color: yellow;
+}
+
+.welcome-text{
+  align-content: center;
+}
